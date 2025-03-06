@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/55c933c115a8c426ac000082/train/javascript target="_blank">Switch/Case - Bug Fixing #6</a></h2><h3>8 kyu</h3><h2 id="switchcase---bug-fixing-6">Switch/Case - Bug Fixing #6</h2><p>Oh no! Timmy's evalObject function doesn't work. He uses Switch/Cases to evaluate the given properties of an object, can you fix timmy's function?</p>
