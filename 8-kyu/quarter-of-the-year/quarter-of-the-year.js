@@ -1,3 +1,1 @@
-const quarterOf = (month) => {
-  return Math.ceil(month/3)
-}
+const quarterOf = (month) => Math.ceil(month/3)
