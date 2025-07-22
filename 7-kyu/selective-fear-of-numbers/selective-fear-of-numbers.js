@@ -1,20 +1,18 @@
-function AmIAfraid(day, num) {
-    const lowerCaseDay = day.toLowerCase();
-    if (lowerCaseDay === 'monday') {
-        return num === 12;
-    } else if (lowerCaseDay === 'tuesday') {
-        return num > 95;
-    } else if (lowerCaseDay === 'wednesday') {
-        return num === 34;
-    } else if (lowerCaseDay === 'thursday') {
-        return num === 0;
-    } else if (lowerCaseDay === 'friday') {
-        return num % 2 === 0;
-    } else if (lowerCaseDay === 'saturday') {
-        return num === 56;
-    } else if(lowerCaseDay === 'sunday') {
-        return num === 666 || num === -666;
-    } 
-  return false
+const AmIAfraid = function(day, num){
+  if (day === 'Monday' && num === 12) {
+    return true
+  } else if (day === 'Tuesday' && num > 95) {
+    return true;
+  } else if (day === 'Wednesday' && num === 34) {
+    return true;
+  } else if (day === 'Thursday' && num === 0) {
+    return true;
+  } else if (day === 'Friday' && num % 2 === 0) {
+    return true;
+  } else if (day === 'Saturday' && num === 56) {
+    return true;
+  } else if (day === 'Sunday' && ((num === -666) || (num === 666))) {
+    return true;
   }
-​
+  return false;
+}
